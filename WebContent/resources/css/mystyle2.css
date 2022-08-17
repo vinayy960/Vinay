@@ -1,0 +1,115 @@
+@charset "ISO-8859-1";
+
+    *
+    {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    body
+    {
+        background-color: #aeaeae;
+        border: 5px solid #fff;
+        height: 600px;
+        padding: 5px;
+    }
+    header
+    {
+        background-color: #504d4d;
+        color: #fdfdfd;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        margin: 15px 0px;
+    }
+    nav
+    {
+        background-color: #504d4d;
+        height: 50px;
+        line-height: 50px;
+    }
+    nav a
+    {
+        border: 2px solid #fff;
+        margin: 0 40px;
+        padding: 10px;
+        background-color: rgb(226, 222, 222);
+        border-radius: 5px;
+        color: #504d4d;
+        text-decoration: none;
+    }
+    nav a:hover
+    {
+        background-color: rgb(105, 98, 98);
+        color: #fdfdfd;
+    }
+    .container {
+    margin: 25px auto;
+	max-width: 700px;
+	width: 100%;
+	background: #fff;
+	padding: 25px 30px;
+	border-radius: 5px;
+}
+
+.container form .user-detail {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+form .user-details .input-box {
+	margin: 20px 0 12px 0;
+	width: calc(100%/ 2 -20px);
+}
+
+.user-details .input-box .details {
+	display: block;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+	height: 45px;
+	width: 100%;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding-left: 15px;
+	font-size: 16px;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus, .user-details .input-box input:valid
+	{
+	border-color: #808080;
+}
+form .button {
+	height: 45px;
+	width: 45px 0;
+}
+
+form .button input {
+	height: 100%;
+	width: 100%;
+	outline: none;
+	color: #fff;
+	border: none;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	background: linear-gradient(135deg, #353535, #bebebe);
+}
+
+form .button input:hover {
+	background: linear-gradient(-135deg, #353535, #bebebe);
+}
+    
+    table
+    {
+    	padding:25px;
+    	width: 70%;
+    	border-collapse: collapse;
+    }

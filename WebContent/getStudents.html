@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>students</title>
+<link href='https://fonts.googleapis.com/css?family=Poppins'
+	rel='stylesheet'>
+
+<link rel="stylesheet" href="./resources/css/mystyle2.css">
+
+<style>
+
+.user-details .input-box input {
+	display: inline;
+	height: 20px;
+	outline: none;
+	font-size: 16px;
+	padding: 0;
+}
+.user-details .input-box .title
+{
+	display: inline;
+}
+</style>
+</head>
+<body>
+
+	<header>
+		<h1 class="title">Student App</h1>
+	</header>
+
+
+	<nav>
+		<a href="./searchStudentForm.html">Search students</a> <a
+			href="./allStudents">Display All Students</a> <a
+			href="./getStudents.html">Display Based on Ranks</a> <a
+			href="./logout">Logout</a>
+	</nav>
+	<div class="container">
+
+
+		<form action="getStudentsBasedOnRank">
+
+			<div class="user-details">
+				<div class="input-box">
+					<label class="title">First class With Distinction</label> <input
+						type="radio" name="rank" value="FCD">
+				</div>
+
+				<div class="input-box">
+					<label class="title">First class</label> <input type="radio"
+						name="rank" value="FC">
+				</div>
+
+				<div class="input-box">
+					<label class="title">Second class</label> <input type="radio"
+						name="rank" value="SC">
+				</div>
+
+				<div class="input-box">
+					<span class="title">Fail</span> <input type="radio" name="rank"
+						value="FAIL">
+				</div>
+				<div class="button">
+					<input type="submit" value="Display Students">
+
+				</div>
+			</div>
+
+
+		</form>
+	</div>
+
+</body>
+</html>
+
